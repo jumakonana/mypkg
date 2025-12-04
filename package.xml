@@ -4,10 +4,12 @@
   <name>mypkg</name>
   <version>0.0.0</version>
   <description>robotsystem no.8</description>
-  <maintainer email="unknown">kyh12</maintainer>
+  <maintainer email="s24C1079LG@s.chibakoudai.jp">kyh12</maintainer>
   <license>BSD-3-Clause</license>
-
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
   <test_depend>ament_copyright</test_depend>
+  <exec_depend>launch_ros</exec_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
