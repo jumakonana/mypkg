@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msg.msg import Int16
+from std_msgs.msg import Int16
 
 rclpy.init()
 node = Node("talker")
@@ -17,5 +17,5 @@ def cb():
 
 
 def main():
-    node.create_timer(0.5, b)
+    node.create_timer(0.5, cb)
     rclpy.spin(node)
